@@ -12,5 +12,3 @@ The script:
 
 pip install -r requirements.txt
 python main.py
-
-python, api, etl, data-engineering
