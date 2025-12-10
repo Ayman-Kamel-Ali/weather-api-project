@@ -6,8 +6,11 @@ The script:
 - Calls the weather API
 - Extracts temperature & humidity
 - Saves data to CSV
-
+## Output Sample
+2025-12-10 | Cairo | 22.5°C | 48%
 ## How to run
 
 pip install -r requirements.txt
 python main.py
+
+python, api, etl, data-engineering
