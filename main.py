@@ -31,7 +31,7 @@ try:
 
     print(f"{time} | {city} | {temp}°C | {humidity}%")
 
-    with open("weather_data.csv", "a", newline="") as f:
+    with open("data/weather_data.csv", "a", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([time, city, temp, humidity])
 
